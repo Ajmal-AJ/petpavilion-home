@@ -1,0 +1,1355 @@
+@font-face {
+    font-family: 'FredokaOne';
+    src: url(../fonts/FredokaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: MarkOTlight;
+    src: url(../fonts/MarkOT-Light\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: MarkOT;
+    src: url(../fonts/MarkOT-Medium\ \(1\).ttf);
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap'); */
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    font-family: 'FredokaOne';
+}
+
+img {
+    max-width: 100%;
+}
+
+.py-8 {
+    padding: 8rem 0;
+}
+
+h2 {
+    font-family: 'FredokaOne';
+    font-size: 35px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+}
+
+.title {
+    font-family: FredokaOne;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.pad-120 {
+    padding: 120px 0;
+}
+
+.sec-paddings {
+    padding: 30px 0;
+}
+
+.postion-relative {
+    position: relative;
+}
+
+/* ==========================choose us section ================== */
+.chooseitem {
+    padding: 27px 17px 27px 44px;
+    border-radius: 28px;
+    box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 16%);
+    background-color: #bbdad5;
+    width: 85%;
+    margin: auto;
+    /* height: 115px; */
+}
+
+.choose-iconbx .icons {
+    width: 70px !important;
+    height: 83.5px;
+    object-fit: contain;
+
+}
+
+.choose-us-tt-box .title {
+    font-family: FredokaOne;
+    font-size: 35px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+
+    color: #333;
+}
+
+.chooseitem .choose-us-tt-box .description {
+    font-family: MarkOT;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+
+    color: #000;
+}
+
+.choose-icon-paw {
+    width: 100px !important;
+    position: absolute;
+    top: 6px;
+    right: 35px;
+
+}
+
+.choose-us-box .owl-prev {
+    float: left;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: #bbdad5 !important;
+    color: #707070 !important;
+    /* padding: 10px; */
+    margin-left: 5px !important;
+    border-radius: 50% !important;
+    width: 44px !important;
+    height: 44px !important;
+    cursor: pointer !important;
+    position: relative !important;
+    line-height: 33px !important;
+    top: -94px !important;
+    right: 36px;
+
+}
+
+.choose-us-box .owl-next {
+    box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 16%);
+    background-color: #a2d1ea !important;
+    border-radius: 50% !important;
+    width: 44px !important;
+    height: 44px !important;
+    line-height: 33px !important;
+    float: right !important;
+    position: relative !important;
+    top: -94px !important;
+    left: 36px;
+    cursor: pointer;
+    color: #707070 !important;
+
+}
+
+.fa-arrow-left-long {
+    float: right;
+    font-size: 21px;
+}
+
+.fa-arrow-right-long {
+    float: left;
+    font-size: 21px;
+}
+
+.carousel-item {
+    background-image: url(../images/sliders/slider\ bg.png);
+}
+
+
+/* =========================================footer section ============================== */
+
+
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-section {
+    background-color: #142254;
+    position: relative;
+
+    font-size: 14px;
+    font-family: MarkOTlight;
+}
+
+
+
+.footer-content {
+    position: relative;
+    z-index: 2;
+}
+
+.footer-pattern img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 330px;
+    background-size: cover;
+    background-position: 100% 100%;
+}
+
+.footer-logo {
+    margin-bottom: 0px;
+}
+
+.footer-logo img {
+    max-width: 260px;
+}
+
+.footer-text p {
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #7e7e7e;
+    line-height: 28px;
+}
+
+.footer-social-icon span {
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 6px;
+    padding: 8px 0;
+
+}
+
+.footer-social-icon a {
+    color: rgb(19, 18, 18);
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.footer-social-icon i {
+    height: 26px;
+    width: 26px;
+    text-align: center;
+    line-height: 27px;
+    border-radius: 50%;
+}
+
+.facebook-bg {
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: #7dccf6;
+}
+
+.twitter-bg {
+    background-color: #eccfa3;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+}
+
+.instagram-bg {
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: #bbdad5;
+}
+
+.footer-widget-heading h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+
+.footnavlinksbx ul li {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin-bottom: 12px;
+}
+
+.footer-widget ul li a:hover {
+    color: #82aec6
+}
+
+.footer-widget ul li a {
+    color: #fdfdfd;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+
+.copyright-area {
+    background-color: #0b1844;
+    padding: 9px 0;
+}
+
+.copyright-text p {
+    margin: 0;
+    font-size: 13px;
+    color: #fff;
+    font-family: MarkOTlight;
+
+
+}
+
+.copyright-text p a {
+    color: #82aec6
+}
+
+.footer-menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.footer-menu li:hover a {
+    color: #82aec6
+}
+
+.footer-menu li a {
+    font-size: 14px;
+    color: #878787;
+}
+
+.bottom-footer-social-icons .scil-links {
+    color: rgb(19, 18, 18);
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.social-icons {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 31px;
+}
+
+.address li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.address .adrsicons {
+    width: 28px;
+    height: 28px;
+    margin: 0px 8px 0px 0px;
+    padding: 4px 4.5px 3.6px 4.5px;
+    border-radius: 50%;
+    text-align: center;
+    color: #000;
+    box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 16%);
+    line-height: 19px;
+    font-size: 14px;
+
+}
+
+.location-icon {
+    background-color: #eccfa3;
+}
+
+.mail-icon {
+    background-color: #bbdad5;
+}
+
+.call-icon {
+    background-color: #7dccf6;
+}
+
+.googlereview-icon {
+    width: 136px;
+    /* padding: 13px; */
+    /* margin: auto; */
+}
+
+.payment-icon {
+    width: 245px;
+    padding: 13px;
+    /* margin: auto; */
+
+}
+
+.ft-links {
+    background: url(../images/icons/pawlinkicon.svg) 0 36% no-repeat;
+    list-style-type: none;
+    padding-left: 19px;
+    margin-bottom: 12px;
+}
+
+
+/* ==========================blog section========= */
+
+
+.blog-item {
+    padding: 11px;
+    border-radius: 35px;
+    background-color: #bbdad5;
+}
+
+.blog-img {
+    object-fit: contain;
+    border-radius: 25px
+}
+
+.blog-box .owl-next {
+    box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 16%);
+    background-color: #a2d1ea !important;
+    border-radius: 50% !important;
+    width: 41.5px !important;
+    height: 41.5px !important;
+    line-height: 41px !important;
+    float: right !important;
+    position: relative !important;
+    top: -200px !important;
+    left: 35px !important;
+    z-index: 1 !important;
+    cursor: pointer !important;
+    color: #707070 !important;
+}
+
+.blog-box .owl-prev {
+    float: left;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: #bbdad5 !important;
+    color: #707070 !important;
+    /* padding: 10px; */
+    margin-left: 5px !important;
+    border-radius: 50% !important;
+    width: 41.5px !important;
+    height: 41.5px !important;
+    cursor: pointer !important;
+    position: relative !important;
+    line-height: 41px !important;
+    top: -200px !important;
+    right: 35px !important;
+    z-index: 1 !important;
+    cursor: pointer !important;
+}
+
+.blog-box .customPreviousBtn .fa-arrow-left {
+    float: right;
+    line-height: 41px;
+}
+
+.blog-title {
+    font-size: 24px;
+    font-family: MarkOT;
+}
+
+.blog-description {
+    text-align: justify;
+    font-family: MarkOTlight;
+    font-size: 14px;
+}
+
+.blog-box .readmore-btn {
+    border-radius: 22px;
+    box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 16%);
+    background-color: #a2d1ea;
+    padding: 6px 25px;
+    font-family: MarkOT;
+
+}
+
+.blog-icon-paw {
+    width: 68px !important;
+    position: absolute;
+    bottom: 18px;
+    right: 28px;
+}
+
+.view-all-btn {
+    padding: 4.5px 32px 7px 27.5px;
+    border-radius: 14px;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: #f3f1e8;
+    font-family: MarkOT;
+
+}
+
+/* ==========================testimonial section =================== */
+
+.test-person-img {
+    border-radius: 50%;
+    width: 70px !important;
+    height: 70px;
+
+}
+
+.persondescrption-bx {
+    padding: 10px 0;
+}
+
+.gogl-review {
+    padding: 10px 0;
+}
+
+.google-review-black-logo {
+    width: 84px !important;
+    margin-left: 54px;
+}
+
+.testimonialbx .owl-next {
+    float: right !important;
+    box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 16%);
+    background-color: #a2d1ea !important;
+    color: #707070 !important;
+    margin-left: 5px !important;
+    border-radius: 50% !important;
+    width: 34.5px !important;
+    height: 34.5px !important;
+    cursor: pointer !important;
+    position: relative !important;
+    line-height: 33px !important;
+    cursor: pointer !important;
+}
+
+.testimonialbx .owl-prev {
+    float: right !important;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16) !important;
+    background-color: #bbdad5 !important;
+    color: #707070 !important;
+    /* padding: 10px !important; */
+    margin-left: 5px !important;
+    border-radius: 50% !important;
+    width: 34.5px !important;
+    height: 34.5px !important;
+    cursor: pointer !important;
+    position: relative !important;
+    line-height: 41px !important;
+    top: 0 !important;
+    right: 0px !important;
+    z-index: 1 !important;
+    cursor: pointer !important;
+}
+
+.choose-one {
+    background-color: #bbdad5;
+}
+
+.choose-two {
+    background-color: #a2d1ea;
+}
+
+.choose-three {
+    background-color: #eccfa3;
+}
+
+.Testionial-title {
+    font-family: FredokaOne;
+    font-size: 35px;
+    font-weight: normal;
+
+    font-style: normal;
+}
+
+.testimonial-desc .descriptions {
+    padding-right: 60px;
+
+    font-size: 14px;
+    font-family: 'MarkOT';
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* =================================about section ============ */
+.about-us .description-bx .title {
+    font-family: 'FredokaOne';
+
+}
+
+
+.about-description {
+    text-align: justify;
+    font-family: MarkOT;
+    font-size: 14px;
+}
+
+.about-description1 {
+    font-family: MarkOTlight;
+    font-size: 16px;
+}
+
+.learnmorebtn {
+    padding: 7px 27px;
+    border-radius: 23px;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: #a2d1ea;
+    font-family: 'MarkOT';
+}
+
+/* ============================ what we do section  */
+
+
+.service-img {
+    width: 112px !important;
+    border-radius: 50%;
+}
+
+.custom-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #a2d1ea;
+    background-clip: border-box;
+    padding: 30.5px 16px 31.5px 19px;
+    border-radius: 14.5px;
+    border: none;
+}
+
+
+/* ======================================service section=======================  */
+.servicesbx {
+    border-radius: 28px;
+    background-color: #142254;
+    padding: 43px 64px 31px 65px;
+
+}
+
+.service-imagebx {
+    padding: 20px;
+}
+
+.service-img {
+    width: 170px !important;
+    height: 170px;
+    border-radius: 100%;
+}
+
+.service-name {
+    font-family: MarkOT;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.service-description {
+    font-family: MarkOTlight;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.abt-serv-btn {
+    font-family: MarkOT;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.text-gray {
+    color: #3d4a51;
+}
+
+.serviceline {
+    position: absolute !important;
+    width: 129px !important;
+    height: 1px;
+    background: #263360;
+    transform: rotate(90deg);
+    top: 135px;
+    left: 22%;
+}
+
+.extrabox {
+    border-radius: 15px;
+    background-color: #a2d1ea;
+    position: absolute;
+    top: -33px;
+    width: 22%;
+    height: 383px;
+}
+
+.customeprevbtn {
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16) !important;
+    background-color: #bbdad5 !important;
+    color: #707070 !important;
+    border-radius: 50% !important;
+    width: 40px !important;
+    height: 40px !important;
+    margin: 7px 25px;
+    line-height: 31px;
+
+}
+
+.customnextbtn {
+    box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 16%);
+    background-color: #a2d1ea !important;
+    color: #707070 !important;
+    /* margin-left: 5px !important; */
+    border-radius: 50% !important;
+    width: 40px !important;
+    height: 40px !important;
+
+    line-height: 31px;
+}
+
+.customeprevbtn .fa-arrow-left-long {
+    font-size: 25px;
+    float: none;
+}
+
+.customnextbtn .fa-arrow-right-long {
+
+    font-size: 25px;
+    float: right;
+}
+
+.choose-us-tt-box .title {
+    font-family: FredokaOne;
+    font-size: 35px;
+    font-weight: normal;
+
+}
+
+.persondescrption .person-name {
+    font-family: MarkOT !important;
+}
+
+.person-name {
+    font-family: MarkOT !important;
+}
+
+.person-designation {
+    font-family: MarkOTlight;
+    font-size: 14px;
+}
+
+.markot {
+    font-family: MarkOT !important;
+}
+
+.markotthin {
+    font-family: MarkOTlight !important;
+}
+
+
+
+.time-bx {
+    background-color: #bbdad5;
+    transform: skewX(323deg);
+    transform-origin: top;
+}
+
+.tophead-nav-item {
+    padding: 6px;
+}
+
+.diagonal {
+    width: 300px;
+
+    background-color: #bbdad5;
+    transform: skewX(-30deg);
+    transform-origin: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.diagonal>span {
+    transform: skewX(30deg);
+    font-family: MarkOT;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+}
+.time-icon {
+    width: 30px;
+    height: 30px;
+    padding: 4.5px 2.2px 5.2px 7.5px;
+    box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 16%);
+    background-color: #eccfa3;
+    border-radius: 50%;
+    line-height: 20px;
+}
+.email-icon-hd, .call-icon-hd {
+    width: 30px;
+    height: 30px;
+    padding: 4.5px 2.2px 5.2px 7.5px;
+    box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 16%);
+    background-color: #b2d1cc;
+    border-radius: 50%;
+    line-height: 20px;
+
+}
+.whatsapp-icon {
+    width: 30px;
+    height: 30px;
+    padding: 4.5px 2.2px 5.2px 7.5px;
+    box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 16%);
+    background-color: #95d0ef;
+    border-radius: 50%;
+    line-height: 20px;
+
+}
+.bg-color{
+    background-color: #dfbf8f;
+
+}
+.email-bx, .contact-bx {
+    background-color: #dfbf8f;
+    margin-bottom: 0;
+}
+.tophead-nav-item a {
+    color: #000;
+    font-size: 14px;
+    font-family: MarkOT;
+}
+.bg-dark {
+    box-shadow: 0 0.5px 2px 0 rgba(0, 0, 0, 0.16) !important;
+    background-color: #fff !important;
+    z-index: 2;
+    
+}
+.navbar-nav .nav-link {
+    color: #000 ;
+    font-family: MarkOT;
+    font-size: 16px;
+    font-weight: 500;
+}
+.paw-head-icn {
+    position: absolute;
+    top: -9px;
+    left: 21px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(0 0 0 / 74%);
+    font-family: MarkOT !important;
+}
+.navbar-nav .active {
+   
+    color: #82aec6 !important;
+    list-style-type: none;
+    padding-left: 19px;
+    margin-bottom: 12px;
+}
+.nav-link:hover {
+    color: #000 !important;
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    float: left;
+    vertical-align: 0.255em;
+    margin-top: 0.5em;
+    margin-right: 0.4em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+.booknow-btn {
+    border-radius: 25px;
+    background-color: #a2d1ea;
+    font-family: MarkOT;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    padding: 10px 20px;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+   
+    line-height: 1;
+    background-color: #bbdad5;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+.wishlist-icon {
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: #95d0ef;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 28px;
+    font-size: 21px;
+    color: #fff;
+    padding: 6.5px 0.2px 11.2px 9.5px;
+
+}
+.carticon {
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: #38477b;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 25px;
+    font-size: 15px;
+    padding: 6.5px 0.2px 11.2px 11.5px;
+}
+.user-icon {
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: #bbdad5;
+    width: 40px;
+    color: #fff;
+
+    height: 40px;
+    border-radius: 50%;
+    line-height: 28px;
+    font-size: 21px;
+    padding: 6.5px 0.2px 11.2px 9.5px;
+}
+.count {
+    font-size: 10px;
+    background: #ffffff;
+    width: 12px;
+    color: #000;
+    font-family: MarkOT !important;
+    height: 12px;
+    border-radius: 50%;
+    padding: 0px 4px;
+    position: absolute;
+    left: 31px;
+    top: 12px;
+    z-index: 9;
+}
+.sl-link-blck {
+    color: #000;
+}
+
+/* ===================================================================header end==== */
+.bg-warning {
+    background-size: cover;
+    height: 93vh;
+    width: 100%;
+    border-radius: 60pc 109pc 9pc 73pc;
+    transform: rotate(339deg);
+    position: fixed;
+    top: -148px;
+    right: -565px;
+    background-position-x: -124px;
+    background-position-y: 80%;
+    background-color: #eccfa3;
+    z-index: 142;
+}
+.bnerimg {
+    transform: rotate(30deg);
+    overflow: hidden;
+    position: absolute;
+    top: -295px;
+    z-index: -9;
+    left: -75px;
+}
+
+/* ======================== */
+.w-100 {
+    width: 100%!important;
+    height: 95vh;
+    position: relative;
+    top: -80px;
+}
+
+.custombnr-row {
+    position: absolute;
+    z-index: 48;
+    top: 0;
+    left: 63px;
+}
+.headermedialinks {
+    position: absolute;
+    z-index: 9;
+}
+.linevertical-big {
+    display: block;
+    width: 7%;
+    height: 2px;
+    background: #d2d2d2;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -24px;
+    top: 175px;
+}
+.linevertical-big {
+    display: block;
+    width: 10%;
+    height: 2px;
+    background: #d2d2d2;
+    transform: rotate(90deg);
+    position: fixed;
+    left: -9px;
+    top: 289px;
+}
+.header-social-link {
+    position: absolute;
+    top: 243px;
+    padding: 12px 34px;
+    width: 37px;
+    margin: 0;
+    font-size: 20px;
+}
+.heder-fb {
+    padding: 9px 1px;
+}
+.header-twti {
+    padding: 45px 0;
+}
+.header-insta {
+    padding: 80px 0 0 0;
+}
+/* .linevertical-small {
+    display: block;
+    width: 5%;
+    height: 2px;
+    background: #d2d2d2;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -5px;
+    bottom: -416px;
+} */
+.linevertical-small {
+    display: block;
+    width: 4%;
+    height: 2px;
+    background: #d2d2d2;
+    transform: rotate(90deg);
+    position: fixed;
+    left: 31px;
+    /* top: 0; */
+    bottom: 95px;
+}
+.bannercontent {
+    margin-top: 4em;
+    padding-left: 5em;
+    
+    
+}
+.main-title {
+    font-size: 50px;
+    font-family: FredokaOne;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+
+}
+.video-box {
+    margin-top: 7em;
+    padding-left: 5em;
+}
+/* .videobg {
+    background: url(../images/sliders/videobg.png);
+    min-height: 132px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 27px;
+} */
+.videobg {
+    background: url(../images/sliders/videobg.png);
+    min-height: 124px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 27px;
+    width: 170px;
+}
+.video-tt {
+    font-family: MarkOT;
+    font-size: 20px;
+
+}
+.video-descr {
+    margin-bottom: 0;
+    font-size: 14px;
+
+}
+.fa-play {
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    top: 46px;
+    font-size: 24px;
+    z-index: 9;
+    color: #38477b;
+}
+/* .bannerslider .owl-next {
+    box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 16%);
+    background-color: #a2d1ea !important;
+    border-radius: 50% !important;
+    width: 41.5px !important;
+    height: 41.5px !important;
+    line-height: 41px !important;
+    float: right !important;
+    position: relative !important;
+    top: -57px;
+    color: #707070 !important;
+    right: 48px;
+    
+}
+.bannerslider .owl-prev {
+    float: right !important;
+    box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 16%);
+    background-color: #bbdad5 !important;
+    color: #707070 !important;
+   
+    margin-left: 5px !important;
+    border-radius: 50% !important;
+    width: 44px !important;
+    height: 44px !important;
+    cursor: pointer !important;
+    position: relative !important;
+    line-height: 33px !important;
+    top: -58px !important;
+    right: 174px;
+} */
+.bannerbtnsbx {
+    position: absolute;
+    bottom: 37px;
+    right: 149px;
+    z-index: 9;
+}
+/* =======================================shapes part=============== */
+.circleshapebx {
+    position: relative;
+}
+.circle-shape {
+    width: 127px;
+    position: absolute;
+    top: 2px;
+    right: 0;
+    height: 233px;
+    overflow: hidden;
+    z-index: -1 !important;
+}
+.chosoeshape {
+    width: 28%;
+    position: absolute;
+    z-index: -9;
+    top: -88px;
+    height: 484px;
+    opacity: .2;
+}
+
+.blogssecshape {
+    width: 46%;
+    position: absolute;
+    z-index: -9;
+    left: -250px;
+    opacity: 0.2;
+    top: 64px;
+}
+/* ===================================================product section =================== */
+.product-card  {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    position: relative;
+    
+    top: -50px;
+    background-color: transparent;
+    background-clip: border-box;
+    border: none;
+    border-radius: 0.25rem;
+    
+}
+.productimgbx {
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: auto;
+    position: relative;
+    top: 72px;
+    z-index: 19;
+    box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 16%);
+    background-color: #fff;
+}
+.product-pic {
+    width: 70%!important;
+    height: 182px;
+    padding: 21px;
+}
+.product-body {
+    border-radius: 0px 0px 25px 25px;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    
+    padding: 90px 12px 35px 12px;
+    width: 95%;
+    margin: auto;
+}
+.bgprdct-one {
+    background-color: #a2d1ea;
+}
+.bgprdct-two {
+    background-color: #bbdad5 ;
+}
+
+.newbx, .offrbx, .bst-seller {
+
+    padding: 4px 10px;
+    border-radius: 0px 5px 5px 5px;
+    color: #fff;
+    font-family: MarkOT;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+}
+.product-title {
+    font-family: MarkOT;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+.card-text {
+    font-family: MarkOT;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+.product-review {
+    border-radius: 4px;
+    background-color: #234e32;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+    padding: 2px 9px;
+}
+.product-review  .fa-star {
+
+     font-size: 11px;
+}
+.newbx {
+    background-color: #13c207;
+}
+.offrbx {
+    background-color: #142254;
+}
+.bst-seller {
+    background-color: #d80126;
+}
+
+.essense {
+    border-radius: 4px;
+    background-color: #98c1ba;
+    padding: 3px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: MarkOT;
+    font-style: normal;
+}
+.mrp-price {
+    opacity: 0.55;
+}
+.orderbtnonbx {
+    padding: 12px 0 0 0;
+    margin-top: 13px;
+}
+    
+.cartbtn {
+    border-radius: 10.5px;
+    background-color: #eccfa3;
+    padding: 12px 19px;
+    font-size: 14px;
+    font-family: MarkOT;
+    
+}
+.wishlistBtn {
+    border-radius: 10.5px;
+    background-color: #142254;
+    padding: 12px 30px;
+    font-size: 14px;
+    font-family: MarkOT;
+
+}
+small {
+    font-family: MarkOT;
+}
+.wish-icon {
+
+    font-size: 33px;
+}
+.product-cart-icon {
+    width: 36px !important;
+    margin: auto;
+}
+.product-box .owl-prev {
+    float: left;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: #bbdad5 !important;
+    color: #707070 !important;
+    /* padding: 10px; */
+    margin-left: 5px !important;
+    border-radius: 50% !important;
+    width: 41.5px !important;
+    height: 41.5px !important;
+    cursor: pointer !important;
+    position: relative !important;
+    line-height: 41px !important;
+    top: -267px !important;
+    right: 35px !important;
+    z-index: 1 !important;
+    cursor: pointer !important;
+}
+.product-box .owl-next {
+    box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 16%);
+    background-color: #a2d1ea !important;
+    border-radius: 50% !important;
+    width: 41.5px !important;
+    height: 41.5px !important;
+    line-height: 41px !important;
+    float: right !important;
+    position: relative !important;
+    top: -267px !important;
+    left: 35px !important;
+    z-index: 1 !important;
+    cursor: pointer !important;
+    color: #707070 !important;
+}
+.viewall-orduct-btn {
+    border-radius: 27px;
+    box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 16%);
+    background-color: #a2d1ea;
+    padding: 7px 45px;
+    font-family: MarkOT;
+    font-weight: 500;
+}
+.productsec-shape {
+    width: 56%;
+    height: 47em;
+    position: absolute;
+    opacity: 0.2;
+    right: 0px;
+    z-index: -9;
+    top: 36px;
+}
+.quotesicon {
+    position: absolute;
+    font-size: 120px;
+    top: -109px;
+    left: -91px;
+    z-index: -1;
+    color: #bbdad5;
+    opacity: 0.5;
+}
+.dropdown-menu {
+    font-family: MarkOT;
+}
